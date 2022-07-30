@@ -3,8 +3,8 @@
 using namespace std;
 
 class Solution {
+    
 public:
-
     bool searchMatrix(vector<vector<int>>&matrix, int target) {
         int diagonalSize = min(matrix.size(), matrix[0].size());
 
